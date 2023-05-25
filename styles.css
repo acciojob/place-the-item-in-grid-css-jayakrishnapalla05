@@ -3,6 +3,10 @@
 .holder{
 	display:grid;
 	background-color:pink;
-	grid-template-columns: repeat(2, 200px);
-	
+	grid-template-columns:100px 100px;	
+}
+.holder .item{
+	background-color:aqua;
+	margin:10px;
+	padding:10px 20px;
 }
